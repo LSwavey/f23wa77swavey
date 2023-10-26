@@ -9,6 +9,7 @@ router.get('/', function(req, res, next) {
   more += 1;
   sum += more;
   res.send('Sum is: ' + sum);
+  console.log(sum);
 });
 
 module.exports = router;
